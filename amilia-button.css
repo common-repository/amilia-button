@@ -1,0 +1,69 @@
+#amilia-mask {
+	position: fixed;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	background-color: black;
+	opacity: 0.5;
+	filter: alpha(opacity=50);
+	z-index: 10001;
+}
+
+#amilia-modal {
+  z-index: 10002;
+  position: absolute;
+  width: 600px;
+  border: 1px solid #999;
+  border-radius: 2px;
+  background-color: #F5F5F5;
+  left: 40%;
+  top: 100px;
+  padding: 1.5em;
+}
+
+#amilia-modal label {
+  display: inline-block;
+  width: 150px;
+  cursor: default;
+  font-weight: bold;
+}
+
+#amilia-modal input{
+  display: inline-block;
+  width: 400px;
+}
+
+#amilia-modal .amilia-left {
+  display: inline-block;
+}
+
+#amilia-modal .amilia-left input,
+#amilia-modal .amilia-left select {
+  width: 150px;
+  margin: 2px 0;
+}
+
+#amilia-modal .amilia-right {
+  display: inline-block;
+  width: 230px;
+  padding-left: 20px;
+}
+
+#amilia-modal .amilia-buttons {
+  margin-top: 10px;
+}
+
+#amilia-modal .clear {
+  clear: both;
+}
+
+#amilia-modal .amilia-buttons button {
+  float: left;
+  margin-right: 1em;
+  font-weight: bold;
+}
+
+#amilia-modal .amilia-buttons a {
+  float: right;
+}
